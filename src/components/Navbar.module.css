@@ -6,9 +6,10 @@
 }
 button{
   border: none;
-  color: red;
-  background-color: rgb(17, 13, 8);
-  margin: 2px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-size: 1.1rem;
+  opacity: 0.9;
 }
 .themeswitcher {
   display: flex;

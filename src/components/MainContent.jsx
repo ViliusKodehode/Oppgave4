@@ -44,7 +44,7 @@ function Maincontent() {
     ]
 };
   return (
-    <div className={styles.maincontainerslide}>
+  <div className={styles.maincontainerslide}>
     <div className = {styles.slidercontainer}>
         <Slider {...settings}>
           {mainContentData.map((movie,index) => (
@@ -53,6 +53,7 @@ function Maincontent() {
             className={styles.movieboxcontainer}
             >
               <h3>{movie.date}</h3>
+              
             </div>
           ))}
         </Slider>

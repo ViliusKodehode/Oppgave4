@@ -6,6 +6,7 @@
 }
 .image:hover{
     transform: scale(1.05);
+    animation: boxshadow 1s infinite alternate;
 }
 .descriptioncontainer{
     position: absolute;
@@ -22,7 +23,7 @@
     transition: opacity 0.3s ease-in-out;
 }
 .image {
-    width: 100%;
+    width: 95%;
     height: auto;
     transition: transform 0.3s ease-in-out;
   }
@@ -30,4 +31,14 @@
     position: relative;
     text-align: center;
   }
-  
+  @keyframes boxshadow {
+    100%{
+        box-shadow: 1px 1px white;
+    }
+    50%{
+        box-shadow: 2px 2px yellow;
+    }
+    0%{
+        box-shadow: 1px 1px white;
+    }
+  }
