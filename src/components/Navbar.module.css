@@ -3,5 +3,56 @@
     height: 5%;
     display: flex;
     flex-direction: row;
-    justify-content: end;
+}
+button{
+  border: none;
+  color: red;
+  background-color: rgb(17, 13, 8);
+  margin: 2px;
+}
+.themeswitcher {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 100%;
+  background-color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+  
+.themeswitcher .themetoggle {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s;
+}
+.themeswitcher .dark {
+  color: white;
+  font-weight: bold;
+}
+  
+.themeswitcher .light {
+  color: rgb(255, 251, 0);
+  font-weight: bold;
+}
+.switchercontainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 100%;
+  width: 10%;
+}
+.linkscontainer{
+  height: 100%;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.image{
+  width: 24px;
+  height: 24px;
 }

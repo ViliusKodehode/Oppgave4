@@ -1,9 +1,33 @@
 .maincontainerslide{
     width: 80%;
     height: 90%;
-    margin-top: 180px;
+    margin-top: 50px;
     margin-left: 180px;
 }
 .image:hover{
-    scale: 1.1;
+    transform: scale(1.05);
 }
+.descriptioncontainer{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+.image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  .movieboxcontainer {
+    position: relative;
+    text-align: center;
+  }
+  

@@ -1,4 +1,18 @@
-.maincontentcontainer{
-    width: 100%;
+.maincontainerslide{
+    width: 80%;
     height: 90%;
+    margin-top: 50px;
+    margin-left: 180px;
+}
+.movieboxcontainer {
+    position: relative;
+    text-align: center;
+}
+.image:hover{
+    transform: scale(1.05);
+}
+.image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
 }

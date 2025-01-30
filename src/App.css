@@ -1,13 +1,24 @@
+:root{
+  --bg-color:white;
+  --text-color:black;
+}
+.dark {
+  --bg-color:black;
+  --text-color:white;
+}
+
 body{
   padding: 0;
   margin: 0;
   height: 100vh;
   width: 100vw;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
 }
 .Maincontainer{
   width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: black;
 }
